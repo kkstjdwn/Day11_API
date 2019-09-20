@@ -1,4 +1,4 @@
-package com.sungju.stingTokenizer.ex02;
+package com.sungju.colletion.ex02;
 
 import java.util.ArrayList;
 
