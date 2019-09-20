@@ -1,4 +1,4 @@
-package com.sungju.colletion.ex02;
+package com.sungju.collection.ex02;
 
 import java.util.ArrayList;
 
