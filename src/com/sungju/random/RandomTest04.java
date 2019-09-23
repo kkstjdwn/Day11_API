@@ -1,6 +1,7 @@
 package com.sungju.random;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Random;
 
 public class RandomTest04 {
@@ -28,6 +29,8 @@ public class RandomTest04 {
 		} else {
 			System.out.println(ar.get(2) + " 당첨");
 		}
+		
+		
 
 	}
 
