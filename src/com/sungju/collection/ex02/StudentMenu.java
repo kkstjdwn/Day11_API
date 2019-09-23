@@ -8,6 +8,7 @@ public class StudentMenu {
 	private StudentService service = new StudentService();
 	private ArrayList<Student> students;
 	private Scanner sc;
+
 //////////////////////멤버변수선언//////////////////////////////
 	public StudentMenu() {
 		students = new ArrayList<Student>();
@@ -52,8 +53,8 @@ public class StudentMenu {
 				this.view.view(this.service.StudentSearch(students));
 				break;
 			case 4:
-				this.service.StudentDelete(students);
-				;
+				// this.service.StudentDelete(students);
+				this.service.teacher(students, this.service.StudentSearch(students));
 				break;
 			case 5:
 				System.out.println("종료");
