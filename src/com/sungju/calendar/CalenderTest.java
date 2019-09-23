@@ -1,4 +1,4 @@
-package com.sungju.calender;
+package com.sungju.calendar;
 
 import java.util.Calendar;
 
