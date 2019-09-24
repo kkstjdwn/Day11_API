@@ -2,7 +2,7 @@ package com.sungju.calendar;
 
 import java.util.Calendar;
 
-public class CalenderTest {
+public class CalenderTest01 {
 	public static void main(String[] args) {
 		//현재 시간의 정보
 		Calendar cal = Calendar.getInstance(); // new GregorianCalender();
